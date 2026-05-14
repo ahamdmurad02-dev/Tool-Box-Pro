@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Settings</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">Settings</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Theme</h2>
+    <button onclick="dark()">Dark Mode</button>
+    <button onclick="reset()">Reset</button>
+  </div>
+
+  <div class="card">
+    <h2>Info</h2>
+    <p>Tool Box Pro</p>
+    <p>Version 1.0</p>
+  </div>
+
+</div>
+
+<script>
+function dark(){
+  document.body.style.background = "#000";
+}
+
+function reset(){
+  document.body.style.background = "#0b0b0f";
+}
+</script>
+
+</body>
+</html>
