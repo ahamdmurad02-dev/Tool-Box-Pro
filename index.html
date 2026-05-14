@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tool Box Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+  Tool Box Pro
+  <a class="settings" href="settings.html">Settings</a>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Calculator</h2>
+    <input id="n1" placeholder="Number 1">
+    <input id="n2" placeholder="Number 2">
+    <button onclick="multiply()">Calculate</button>
+  </div>
+
+  <div class="card">
+    <h2>Text Tool</h2>
+    <input id="txt" placeholder="Write text">
+    <button onclick="upper()">Convert</button>
+  </div>
+
+  <div class="card">
+    <h2>Entertainment</h2>
+    <button onclick="joke()">Random Joke</button>
+    <button onclick="quote()">Quote</button>
+  </div>
+
+  <div class="card">
+    <h2>Random Tool</h2>
+    <button onclick="random()">Generate Number</button>
+  </div>
+
+  <div id="out" class="result">Result will appear here</div>
+
+</div>
+
+<script src="ui.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
